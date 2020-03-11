@@ -4,6 +4,9 @@ $ git config --global user.name "Jinpeng Wu"
 
 $ git config --global user.email "jinpengwu6688@gmail.com"
 
+
+
+
 #2 checking git admin info
 
 $ git config user.name
@@ -32,6 +35,8 @@ git commit -m "write something here like version 1"
 #5 push to git
 
 git push -u origin master
+
+(if push have permission error : 1 try to change credential username: git config credential.username)
 
 
 Pull project from local
