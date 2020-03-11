@@ -1,0 +1,67 @@
+ad#1 set up the git admin info
+
+$ git config --global user.name "Jinpeng Wu"
+
+$ git config --global user.email "jinpengwu6688@gmail.com"
+
+#2 checking git admin info
+
+$ git config user.name
+$ git config user.email
+
+always checking git status use: git status
+
+ project
+
+#1 init your project in your folder
+$ git init
+
+#2 check status 
+$ git status
+
+#3 add files 
+
+$ git add xx.py
+or
+$ git add . 
+
+#4 add commit message
+
+git commit -m "write something here like version 1"
+
+#5 push to git
+
+git push -u origin master
+
+
+Pull project from local
+
+#always pull frist  before everything
+
+$git pull
+
+#if “Commit your changes or stash them before you can merge”?s
+
+git reset HEAD --hard
+
+Push project from local
+
+$git add . or git add xx.py
+
+$git commit -m "something"
+
+$git push -u origin master
+
+CLONE
+
+$ git clone "http://url"
+
+
+clear
+
+$ git clean -d -f
+
+
+
+
+sudo lsof -iTCP -sTCP:LISTEN -P
