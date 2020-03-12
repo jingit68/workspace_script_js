@@ -57,6 +57,15 @@ $git commit -m "something"
 
 $git push -u origin master
 
+
+#back and future
+git log (find old commit number)
+git reset --hard commitnumber
+
+git reflow (find latest commit number)
+git reset --hard commitnumber
+
+
 CLONE
 
 $ git clone "http://url"
