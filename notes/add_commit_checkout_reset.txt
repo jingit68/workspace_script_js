@@ -7,5 +7,5 @@ git checkout test.txt
 # commit: commit is very dangrous. if you commit it is very hard to remove it. very careful to do th the commit
 git commit -m "your commit message"
 
-#Reset: 
+#Reset: undo add action. back to unstage situtation 
 

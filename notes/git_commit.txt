@@ -3,4 +3,4 @@ cd manu ： 进入mulu
 touch ： 创建文件
 mkdir ： 创建文档
 mv    ： 重命名 mv OldfileOroldfloder newfileornewfloder
-  
+s 
