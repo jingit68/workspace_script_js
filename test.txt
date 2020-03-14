@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-hello world ja 222s
-=======
-hello world javascript2
->>>>>>> 385bc78ea21bb3098162fe66e4e979b05f47975c
+hello world javascript3
 
 
