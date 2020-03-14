@@ -5,8 +5,6 @@ $ git config --global user.name "Jinpeng Wu"
 $ git config --global user.email "jinpengwu6688@gmail.com"
 
 
-
-
 #2 checking git admin info
 
 $ git config user.name
