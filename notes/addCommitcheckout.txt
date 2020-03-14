@@ -1,0 +1,10 @@
+# add git flie to git
+git add test.txt
+
+# checkout : remove everything from the original file
+git checkout test.txt
+
+
+# commit: commit is very dangrous. if you commit it is very hard to remove it. very careful to do th the commit
+git commit -m "your commit message"
+
