@@ -6,3 +6,9 @@
 # git branch 
 #using graph to see your git branch in graph
 # git log --oneline --graph
+#create new branch and frist time push:
+# git push --set-upstream origin branchname
+#Delete branch:
+# git branch -d branchname
+# git branche -D branchname (force to delete)
+
