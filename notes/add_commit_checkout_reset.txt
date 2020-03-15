@@ -8,5 +8,8 @@ git checkout test.txt
 git commit -m "your commit message"
 
 #Reset: undo add action. back to unstage situtation 
+git reset HEAD file name # rest this file before add.
+git reset --hard HEAD, this is back everything to before add. be careful to use this.
 
 git diff : checking diffrent between the old and new in file
+git log  : view history
