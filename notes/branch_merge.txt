@@ -1,0 +1,8 @@
+# using git branch to create new branch
+# git branch branchname
+#using checkout to switch branches
+# git checkout branchname
+#using brach to check wich branch you are in
+# git branch 
+#using graph to see your git branch in graph
+# git log --oneline --graph
