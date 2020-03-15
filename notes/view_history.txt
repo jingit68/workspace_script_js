@@ -1,0 +1,16 @@
+View History:
+
+git log "aadsdsf" : checking this commit and below infomation
+git log "aadssd" -n1 : checking only this commit info
+git log "sdfsdsdf" --oneline : viw hash and commit summary (for all) -n1(for only 1)
+git log "sfdsdf" --stat : for all the files change
+git log "sfsdf" --stat text.txt : only check this file changes
+git log "asdfsdf" --pach text.txt : only check this file lines changes
+git log "sdfsd" -S : only check the function name been changess
+
+git diff : see current moddifation before add
+git diff --staged : see modifcation after add
+
+git diff "adfsdf" see the different
+
+git diff "dfsfdsf" "sdfsdf" see the differet betwen 2 commit
