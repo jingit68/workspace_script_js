@@ -1,0 +1,7 @@
+#stash is temp to store your branch so you can change to other branches witout any trouble.
+#using git stash to store
+git stash
+
+#using git stash pop to back to normal
+git stash normal
+
