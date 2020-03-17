@@ -1,3 +1,6 @@
+git branch -a
+#list all the branch name
+
 # using git branch to create new branch
 # git branch branchname
 #using checkout to switch branches
@@ -11,4 +14,9 @@
 #Delete branch:
 # git branch -d branchname
 # git branche -D branchname (force to delete)
+# Delete branch from GitHub
+# git push origin --delete branch name
+
+#merge brach
+# 
 
