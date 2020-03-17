@@ -17,6 +17,13 @@ git branch -a
 # Delete branch from GitHub
 # git push origin --delete branch name
 
-#merge brach
-# 
+#merge branch using merge command, 
+# git merge --no-ff branchname
+# if merge conflit can do two thing :
+1. git merge --abort # abort the merg
+2. vim the file and edit it
+   git add modife.txt
+   git commit -m "message" or git merge --continue
+   git push
+
 
