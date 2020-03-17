@@ -1,0 +1,9 @@
+# touch create .gitignore
+vim .gitignore #write ignore file like: these files will not upload to GitHub
+
+
+not_upload.py
+not_uploda2.py
+noUpload
+*.swp
+
