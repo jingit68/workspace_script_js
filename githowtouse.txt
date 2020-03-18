@@ -1,3 +1,7 @@
+git reset HEAD^
+back to before if you commit it
+
+
 ad#1 set up the git admin info
 
 $ git config --global user.name "Jinpeng Wu"
