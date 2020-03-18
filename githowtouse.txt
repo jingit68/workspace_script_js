@@ -74,6 +74,6 @@ clear
 $ git clean -d -f
 
 
-
+#rebase
 
 sudo lsof -iTCP -sTCP:LISTEN -P
