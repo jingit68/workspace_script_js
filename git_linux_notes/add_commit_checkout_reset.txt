@@ -1,6 +1,18 @@
 # add git flie to git
 git add test.txt
 
+add muti files 
+
+git add .
+
+or git add -i
+
+choose 2
+choose update file
+enter
+choose 7 to quit
+
+
 # checkout : remove everything from the original file
 git checkout test.txt
 
@@ -13,3 +25,14 @@ git reset --hard HEAD, this is back everything to before add. be careful to use 
 
 git diff : checking diffrent between the old and new in file
 git log  : view history
+
+git amend to change commit:
+
+# Edit hello.py and main.py
+git add hello.py
+git commit
+ 
+# Realize you forgot to add the changes from main.py
+git add main.py
+git commit --amend --no-edit
+

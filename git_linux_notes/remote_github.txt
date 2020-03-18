@@ -1,0 +1,7 @@
+how to clone
+git clone git@git.com ss/ss.git
+
+remote show the info nation
+git remote show origin
+
+git remote add 

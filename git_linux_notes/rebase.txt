@@ -1,0 +1,20 @@
+rebase using:
+instert other brach commits into the main branch(master)
+
+git rebase branch.
+
+if it is conflict using
+
+change the conflict files
+
+then 
+git add the conflict files
+
+and
+git rebase --continue
+git rebase --skip (skip this rebase)
+git rebase --abort
+
+
+for choose rebase
+git rebase -i rebase-branch^^^ rebase-branch
