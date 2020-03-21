@@ -31,7 +31,7 @@ function bar(value) {
 console.log(bar('fun'));    // "innerfun"
 
 
-这是借助 return 的方式，下面是闭包的方式：
+//这是借助 return 的方式，下面是闭包的方式：
 
 function bar(value) {
   var testValue = 'inner';
