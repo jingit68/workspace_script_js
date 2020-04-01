@@ -1,0 +1,12 @@
+1.install node js from website 
+
+2. install react by npx create-react-app todolist
+
+3. if gyp: No Xcode or CLT version detected! 
+   need to do
+	sudo rm -rf $(xcode-select -print-path)
+	xcode-select --install
+
+4. cd todolist
+
+5. nom start
