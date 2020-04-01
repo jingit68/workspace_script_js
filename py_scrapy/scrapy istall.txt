@@ -1,0 +1,34 @@
+1. 安装python3.7以上 目前是3.7
+
+2。 设置环境变量
+
+    2.1 cd ~
+	mkdir .virtualenvs
+    
+    2.2 pip3.7 install virtualenvwrapper
+    	
+	通过sudo find / -name virtualenvwrapper.sh 找到 virtualenvwarpper.sh 路径， 大概是 /Library/Frameworks/Python.framework/Version/3.7/bin/virtualenvwrapper.sh
+        通过sudo find / -name python3.7 找到 python3.7 路径, 大概是 /usr/local/bin/python3.7
+
+    2.3 vim ~/.bash_profile
+	在最后
+	
+	VIRTUALENVWRAPPER_PYTHON = /usr/local/bin/python3.7
+	export WORKON_HOME = $HOME/.virtualenvs
+	source /Library/Frameworks/Python.framework/Version/3.7/bin/virtualenvwrapper.sh
+	
+	退出 ：wq
+	
+	source ～/.bash_profile
+
+3.  建立虚拟环境
+	
+    mkvirtualenv test
+    
+    #workon 检查几个虚拟环境
+    #进入虚拟环境。workon test
+    #退出虚拟环境	deactivate test
+    #删除虚拟环境。rmvirtualenv test
+	
+4.  安装scrapy
+    sudo pip install scrapy lxml twisted

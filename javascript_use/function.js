@@ -68,3 +68,26 @@ function test_arguments2(a, b=1, c=2){
 }
 
 console.log(test_arguments2(1,2,3))
+
+function test_arguments3_rest(base,...more) {
+
+  let num = 0
+  more.forEach(function(item){
+    num += item*1
+  })
+  return base*2+num
+  // body...
+}
+
+console.log(test_arguments3_rest(3,1,1,1))
+
+
+function test_arguments4_spread(x,y,z) {
+
+return x+y+z
+
+}
+
+data_in = [3,4,5]
+
+console.log(test_arguments4_spread(...data_in))
